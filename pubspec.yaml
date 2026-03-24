@@ -1,0 +1,42 @@
+name: vaccine_tracker
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  sqflite: ^2.2.8+4
+  local_auth: ^2.1.6
+  path: ^1.8.3
+  flutter_local_notifications: ^17.0.0
+  timezone: ^0.9.2
+  flutter_secure_storage: ^9.0.0
+  shared_preferences: ^2.2.2
+  package_info_plus: ^5.0.1
+  path_provider: ^2.1.2
+  share_plus: ^7.2.1
+  badges: ^3.1.2
+  crypto: ^3.0.3
+  fl_chart: ^0.66.0
+  pdf: ^3.10.4
+  printing: ^5.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/fonts/Roboto-Regular.ttf
+    - assets/fonts/Roboto-Bold.ttf
