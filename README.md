@@ -1,16 +1,52 @@
-# vaccine_tracker
+# 🧒 Vaccine Tracker App
 
-A new Flutter project.
+## 📌 About Project
 
-## Getting Started
+Vaccine Tracker is a mobile application designed to help parents track their children's vaccination schedules based on the national immunization calendar.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* User authentication (login & registration)
+* Add and manage children profiles
+* Track vaccination schedules
+* View vaccination history
+* Notifications and reminders
+* Multi-language support (EN, RU, UZ)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 💻 Tech Stack
+
+* Flutter
+* Dart
+* SQLite / Local Database
+
+---
+
+## 📂 Project Structure
+
+* `lib/` – main application logic
+* `models/` – data models
+* `screens/` – UI screens
+* `services/` – business logic & services
+* `utils/` – helper functions
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/FotimaInogomova/vaccine_tracker.git
+cd vaccine_tracker
+flutter pub get
+flutter run
+```
+
+---
+
+
+## 📬 Author
+
+Fotima Inogomova
